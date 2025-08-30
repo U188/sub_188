@@ -40,11 +40,11 @@ class PromptType(Enum):
 @dataclass
 class BotConfig:
     """机器人配置类 - 遵循单一职责原则"""
-    TELEGRAM_TOKEN: str = "8130078810:AAH8YtEqeDbrAgNp6vpnmmMwKf9lVxP5v0k"
-    CHATPUB_API_URL: str = "https://www.mnapi.com/v1/chat/completions"
-    CHATPUB_API_KEY: str = "sk-wNzpMNJ4hTAVWGfLojXrOFscboYe97cwcbudYzzQsCQZj3fw"
-    GET_NAMES_URL: str = "http://snell.onlooker.ggff.net/names"
-    DELETE_URL: str = "http://snell.onlooker.ggff.net/delete"
+    TELEGRAM_TOKEN: str = ""
+    CHATPUB_API_URL: str = ""
+    CHATPUB_API_KEY: str = ""
+    GET_NAMES_URL: str = ""
+    DELETE_URL: str = ""
     
     # 模型配置
     AVAILABLE_MODELS: Dict[str, str] = None
